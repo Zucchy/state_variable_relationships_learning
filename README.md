@@ -77,3 +77,6 @@ Running this method will create a specific folder in the `Test` directory contai
 	- `belief_part_count_ep_i.csv` files; each file stores the count of each particle (i.e., state) in the belief (columns) during each step of the episode (rows)
 	- `belief_part_prob_ep_i.csv` files; each file stores the probability of each state in the belief (columns) during each step of the episode (rows)
 - `output_episode_i.csv` files; each file presents the results of the specific episode ("i" is a numeric value that specifies the episode)
+
+# References
+M. Zuccotto, A. Castellini and A. Farinelli. "Learning state-variable relationships for improving POMCP performance".
