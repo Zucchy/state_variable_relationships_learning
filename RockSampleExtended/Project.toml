@@ -1,0 +1,18 @@
+name = "RockSampleExtended"
+uuid = "36fe23ed-0200-4e54-b459-fa3df360170b"
+authors = ["Maddalena Zuccotto - maddalena.zuccotto@univr.it"]
+version = "0.1.0"
+
+[deps]
+BasicPOMCP = "d721219e-3fc6-5570-a8ef-e5402f47c49e"
+CPUTime = "a9c8d775-2e2e-55fc-8582-045d282d599e"
+Compose = "a81c6b42-2e10-5240-aca2-a61377ecd94b"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+POMDPSimulators = "e0d0a172-29c6-5d4e-96d0-f262df5d01fd"
+POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+ParticleFilters = "c8b314e2-9260-5cf8-ae76-3be7461ca6d0"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
