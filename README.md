@@ -47,7 +47,7 @@ Running the proposed learning methods will create a specific folder in the `Test
 - `mrf_info` folder containing
 	- `count_occurences_episode_i.csv` files; each file stores the number of each state-variable (i.e., rock) observed or extracted from the final belief in each episode until the specific episode ("i" is a numeric value that specifies the episode). Not in WBL_learning and WBL_introduction results
 	- `values_occurences_episode_i.csv` each file stores the number of times variable 1 had value "x" and variable 2 had value "y" until the specific episode ("i" is a numeric value that specifies the episode). Not in WBL_learning and WBL_introduction results
-	- `mrf_episode_i.csv` files; each file stores the MRF learned until the specific episode ("i" is a numeric value that specifies the episode). The csv presents 2*num_rocks rows and 2*num_rocks columns, i.e., 16 rows and 16 columns with the constraint value in each cell.
+	- `mrf_episode_i.csv` files; each file stores the MRF learned until the specific episode ("i" is a numeric value that specifies the episode). The csv presents 2\*num_rocks rows and 2\*num_rocks columns, i.e., 16 rows and 16 columns with the constraint value in each cell.
 - `belief_info` folder containing
 	- `belief_part_count_ep_i.csv` files; each file stores the count of each particle (i.e., state) in the belief (columns) during each step of the episode (rows)
 	- `belief_part_prob_ep_i.csv` files; each file stores the probability of each state in the belief (columns) during each step of the episode (rows)
@@ -69,7 +69,7 @@ To use the MRF during the execution of POMCP execute the following command in a 
 julia MRF_usage.jl
 </pre>
 
-It requires a txt file with the true rocks configuration for each episode of the run and a csv file representing an MRF (learned of given). For example, in `MRF_example.csv` we store an MRF representing contraints among 8 nodes (rocks), considering each possible values of each node. So, considering boolean variables, the csv presents 2*num_nodes rows and 2*num_nodes columns.
+It requires a txt file with the true rocks configuration for each episode of the run and a csv file representing an MRF (learned of given). For example, in `MRF_example.csv` we store an MRF representing contraints among 8 nodes (rocks), considering each possible values of each node. So, considering boolean variables, the csv presents 2\*num_nodes rows and 2\*num_nodes columns.
 Notice that rocks configuration in the txt file has to satisfy the distribution defined by the true MRF.
 
 Running this method will create a specific folder in the `Test` directory containing
